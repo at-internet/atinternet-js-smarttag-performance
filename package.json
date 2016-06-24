@@ -1,0 +1,37 @@
+{
+  "name": "atinternet-smarttag-plugin-performance",
+  "version": "0.0.1",
+  "description": "Adds page performance indicators to the AT Internet hit.",
+  "main": "performance.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "grunt karma"
+  },
+  "keywords": [
+    "AT",
+    "Internet",
+    "tag",
+    "smarttag",
+    "performance",
+    "navigation",
+    "timing"
+  ],
+  "author": "AT Internet",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-karma": "^2.0.0",
+    "grunt-mocha": "^1.0.2",
+    "karma": "^1.0.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-html-reporter": "^0.2.7",
+    "karma-mocha": "^1.0.1",
+    "mocha": "^2.5.3"
+  }
+}
