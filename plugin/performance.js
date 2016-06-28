@@ -32,10 +32,11 @@
         //abstract browser differences
         var perfObject = window.performance || window['mozPerformance'] || window['msPerformance'] || window['webkitPerformance'] || false;
 
-        if (perfObject && perfObject.timing) {
-            //add to the hit.
-            parent.setParam('perf', _gatherCounters(perfObject.timing));
-        }
+        parent.page.set({
+            //add to the page customObject
+            customObject:
+                _gatherCounters(perfObject.timing)
+        });
 
     };
     try {
