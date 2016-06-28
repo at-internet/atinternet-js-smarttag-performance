@@ -32,4 +32,5 @@ This plugin will add a new parameter in the AT Internet Tracker hit, called "per
 ```
 Each key is a navigation loading event. Its value represents the duration between the first event (`navigationStart`) and its firing.
 
-
+##Support
+This plugin is provided "AS IS". Feel freel to fork, enhance and pull request, but no official support and maintenance will be provided.
