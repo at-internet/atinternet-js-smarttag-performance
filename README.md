@@ -1,8 +1,8 @@
 #Performance plugin
-This AT Internet SmartJS plugin intends to add page loading timing, gathered from compatible browsers' `navigation.timing` object (See [w3 specification](https://www.w3.org/TR/navigation-timing/) for more detailed information).
+This AT Internet SmartTag plugin intends to add page loading timing, gathered from compatible browsers' `navigation.timing` object (See [w3 specification](https://www.w3.org/TR/navigation-timing/) for more detailed information).
 
 ##Loading
-Load this file **after** the smartJS main file in jour HTML page
+Load this file **after** the SmartTag main file in jour HTML page
 
 `<script src="performance.js" type="text/javascript"></script>`
 
