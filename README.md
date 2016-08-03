@@ -7,7 +7,7 @@ Load this file **after** the SmartTag main file in jour HTML page
 `<script src="performance.js" type="text/javascript"></script>`
 
 ##Action
-This plugin will add a new parameter in the AT Internet Tracker hit, called "perf=". This parameter is a JSON serialized to String, built as follows : 
+This plugin will add an attribute in the AT Internet Tracker custom object. This parameter is a JSON object, built as follows : 
 ```
 {
 	"navigationStart":0,
