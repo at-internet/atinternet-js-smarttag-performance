@@ -40,7 +40,7 @@
 
     };
     try {
-        window.ATInternet.Tracker.Tag.addPlugin('performance');
+        window.ATInternet.Tracker.addPlugin('performance');
     } catch (ex) {
     }
 })();
