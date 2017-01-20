@@ -35,12 +35,11 @@
         parent.page.set({
             //add to the page customObject
             customObject:
-                _gatherCounters(perfObject.timing)
+                "performance": _gatherCounters(perfObject.timing)
         });
 
     };
     try {
         window.ATInternet.Tracker.addPlugin('performance');
-    } catch (ex) {
-    }
+    } catch (ex) {}
 })();
