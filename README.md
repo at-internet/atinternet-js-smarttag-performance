@@ -1,12 +1,12 @@
-#Performance plugin
+# Performance plugin
 This AT Internet SmartTag plugin intends to add page loading timing, gathered from compatible browsers' `navigation.timing` object (See [w3 specification](https://www.w3.org/TR/navigation-timing/) for more detailed information).
 
-##Loading
+## Loading
 Load this file **after** the SmartTag main file in jour HTML page
 
 `<script src="performance.js" type="text/javascript"></script>`
 
-##Action
+## Action
 This plugin will add an attribute in the AT Internet Tracker custom object. This parameter is a JSON object, built as follows : 
 ```
 {
@@ -32,5 +32,5 @@ This plugin will add an attribute in the AT Internet Tracker custom object. This
 ```
 Each key is a navigation loading event. Its value represents the duration between the first event (`navigationStart`) and its firing.
 
-##Support
+## Support
 This plugin is provided "AS IS". Feel freel to fork, enhance and pull request, but no official support and maintenance will be provided.
