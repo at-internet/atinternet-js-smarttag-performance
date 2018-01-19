@@ -34,8 +34,9 @@
 
         parent.page.set({
             //add to the page customObject
-            customObject:
+            customObject: {
                 "performance": _gatherCounters(perfObject.timing)
+            }
         });
 
     };
