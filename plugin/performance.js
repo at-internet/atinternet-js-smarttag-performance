@@ -26,7 +26,7 @@
                 }
             }
             //response must be stringified to be inserted in the hit Querystring
-            return JSON.stringify(perfData);
+            return perfData;
         };
         /* CONSTRUCTOR */
         //abstract browser differences
